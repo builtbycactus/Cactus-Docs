@@ -50,7 +50,7 @@ Use whatever `git` system you want, but clone the repo locally and open the proj
 
 ### 2.0. Add the vault pass file if you need it
 
-Some Mr B and Friends repos require a file to be added to the `trellis` directory to decrypt passwords.
+Some Trellis repos require a file to be added to the `trellis` directory to decrypt passwords.
 
 Trellis is based on Ansible and therefore has access to [Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html) to encrypt files. This allows us to store private information within our git repo, without having to worry about it being read or leaked. Trellis stores this file in the `trellis` directory under a `.gitignore`'d file, generally called `.vault_pass`.
 
