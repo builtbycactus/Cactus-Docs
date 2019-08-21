@@ -1,29 +1,29 @@
 # Setting up a Trellis based site, locally.
 
 
-Table of Contents
-=================
 
-   * [Setting up a Trellis based site, locally.](#setting-up-a-trellis-based-site-locally)
-         * [Prerequisites](#prerequisites)
-         * [1.0. Clone the repo](#10-clone-the-repo)
-         * [2.0. Add the vault pass file if you need it](#20-add-the-vault-pass-file-if-you-need-it)
-         * [3.0. Installing dependencies](#30-installing-dependencies)
-            * [3.1. Base dependencies](#31-base-dependencies)
-            * [3.2. Must-use plugins](#32-must-use-plugins)
-            * [3.3. The theme](#33-the-theme)
-         * [4.0. Booting up the VM](#40-booting-up-the-vm)
-         * [5.0. Synching the database](#50-synching-the-database)
-            * [5.1. Getting wp-admin logins](#51-getting-wp-admin-logins)
-            * [5.2. Activating the required plugins](#52-activating-the-required-plugins)
-            * [5.3. Syncing the database](#53-syncing-the-database)
-         * [6.0. Building the frontend](#60-building-the-frontend)
-            * [6.1. Gulp](#61-gulp)
-            * [6.2. Webpack](#62-webpack)
-               * [6.2.1. NPM](#621-npm)
-               * [6.2.2 Yarn](#622-yarn)
-         * [Common errors](#common-errors)
-            * [503 error when you try to access the site](#503-error-when-you-try-to-access-the-site)
+**Table of Contents**
+
+* [Setting up a Trellis based site, locally.](#setting-up-a-trellis-based-site-locally)
+  * [Prerequisites](#prerequisites)
+     * [1.0. Clone the repo](#10-clone-the-repo)
+     * [2.0. Add the vault pass file if you need it](#20-add-the-vault-pass-file-if-you-need-it)
+     * [3.0. Installing dependencies](#30-installing-dependencies)
+        * [3.1. Base dependencies](#31-base-dependencies)
+        * [3.2. Must-use plugins](#32-must-use-plugins)
+        * [3.3. The theme](#33-the-theme)
+     * [4.0. Booting up the VM](#40-booting-up-the-vm)
+     * [5.0. Synching the database](#50-synching-the-database)
+        * [5.1. Getting wp-admin logins](#51-getting-wp-admin-logins)
+        * [5.2. Activating the required plugins](#52-activating-the-required-plugins)
+        * [5.3. Syncing the database](#53-syncing-the-database)
+     * [6.0. Building the frontend](#60-building-the-frontend)
+        * [6.1. Gulp](#61-gulp)
+        * [6.2. Webpack](#62-webpack)
+           * [6.2.1. NPM](#621-npm)
+           * [6.2.2 Yarn](#622-yarn)
+     * [Common errors](#common-errors)
+        * [503 error when you try to access the site](#503-error-when-you-try-to-access-the-site)
 
 ### Prerequisites
 
