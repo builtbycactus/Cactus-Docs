@@ -221,6 +221,13 @@ This will take some time and you may be asked for your password a couple of time
 
 The `vagrant up` command will start the process of booting the VM for your local site. It will import a base Linux box and then install all the needed items to get a LEMP stack up and running.
 
+Then run
+
+```bash
+vagrant provision
+
+```
+
 Leave this to complete and you should then be able to access your site locally.
 
 To see what your local URL is, you can run the following command from the `trellis` directory:
